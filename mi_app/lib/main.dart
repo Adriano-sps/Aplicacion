@@ -9,17 +9,14 @@ class MyApp extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/ballon.jpg'),
-          fit: BoxFit.cover
-          )
-      ),
-      
-    
-      child: Scaffold(
-        backgroundColor: Colors.transparent,
+    return MaterialApp(
+      home: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/ballon.jpg'), fit: BoxFit.cover)
+        ),
+        
+        child: Scaffold(
+          backgroundColor: Colors.transparent,
         body: Row(
           mainAxisAlignment: MainAxisAlignment.center,
            
@@ -54,7 +51,19 @@ class MyApp extends StatelessWidget {
           ],
         ),
     
+      
+
+
+        ),
+
+
+
+
       ),
+
     );
+    
+
+
   }
 }
