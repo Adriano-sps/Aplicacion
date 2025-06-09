@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Initialview extends StatelessWidget {
-  const Initialview({
+class Initial extends StatelessWidget {
+  const Initial({
     super.key,
   });
 
