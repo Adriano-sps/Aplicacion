@@ -10,7 +10,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => HomeBloc(),
       child: MaterialApp(
